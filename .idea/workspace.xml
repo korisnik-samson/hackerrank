@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7294743-a91b-4898-9c3d-25c0b24abc0c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/solutions/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solutions/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/solutions/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solutions/PlusMinus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/solutions/PlusMinus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/solutions/PlusMinus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/solutions/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/solutions/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/solutions/PlusMinus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/solutions/PlusMinus.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,24 +27,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "korisnik-samson"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;korisnik-samson&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/korisnik-samson/hackerrank.git",
-    "accountId": "80ed2e29-dd23-4c01-b9f8-82c82863b691"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/korisnik-samson/hackerrank.git&quot;,
+    &quot;accountId&quot;: &quot;80ed2e29-dd23-4c01-b9f8-82c82863b691&quot;
   }
-}]]></component>
+}</component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="cy9yF5na" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2tDRo0zP2HkkEeKiP0em9U2TRQs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -50,11 +54,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Run",
+    "Application.Main.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -119,11 +125,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1739884831582</updated>
-      <workItem from="1739884832711" duration="760000" />
+      <workItem from="1739884832711" duration="6100000" />
+      <workItem from="1739891700368" duration="1646000" />
+      <workItem from="1739893670080" duration="4284000" />
+      <workItem from="1739898119077" duration="1536000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/solutions/Main.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/solutions/Main.java</url>
+          <line>85</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,12 +1,14 @@
 package solutions;
 
+import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-        List<List<Integer>> arr = new ArrayList<>();
+       /* List<List<Integer>> arr = new ArrayList<>();
 
         List<Integer> row1 = new ArrayList<>();
         row1.add(11);
@@ -37,7 +39,51 @@ public class Main {
 
         for (int element : diag2) sum2 += element;
 
-        System.out.println(Math.abs(sum1 - sum2));
+        System.out.println(Math.abs(sum1 - sum2));*/
+        
+        /*List<Integer> arr = new ArrayList<>();
+        arr.add(-4);
+        arr.add(3);
+        arr.add(-9);
+        arr.add(0);
+        arr.add(4);
+        arr.add(1);
+        
+        PlusMinus.plusMinus(arr);
+        
+        // 1 2 3 -1 -2 -3 0 0
+        List<Integer> arr1 = new ArrayList<>();
+        arr1.add(1);
+        arr1.add(2);
+        arr1.add(3);
+        arr1.add(-1);
+        arr1.add(-2);
+        arr1.add(-3);
+        arr1.add(0);
+        arr1.add(0);*/
+
+        //PlusMinus.plusMinus(arr1);
+        
+        List<Integer> test = new ArrayList<>();
+        
+        // read from test.txt and add to test list
+        try {
+            File file = new File("src/main/resources/test.txt");
+            Scanner scanner = new Scanner(file).useDelimiter(" ");
+            
+            while (scanner.hasNextInt()) {
+                test.add(scanner.nextInt());
+            }
+            
+            scanner.close();
+            
+            //for (int a : test) System.out.println(a);
+            
+        } catch (Exception e){
+            System.err.println("Error: " + e.getMessage());
+        }
+        
+        PlusMinus.plusMinus(test);
     }
 
 }
