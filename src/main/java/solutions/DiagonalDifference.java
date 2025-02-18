@@ -26,4 +26,18 @@ public class DiagonalDifference {
 
         return secondaryDiagonal;
     }
+    
+    public static int diagonalDifference(@NotNull List<List<Integer>> matrix) {
+        List<Integer> diag1 = getPrimaryDiag(matrix);
+        List<Integer> diag2 = getSecondaryDiag(matrix);
+
+        int sum1 = 0;
+        int sum2 = 0;
+
+        for (int element : diag1) sum1 += element;
+        
+        for (int element : diag2) sum2 += element;
+
+        return Math.abs(sum1 - sum2);
+    }
 }
