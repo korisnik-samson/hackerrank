@@ -62,15 +62,13 @@ public class PlusMinus {
     }
 
     private static int getZero(@NotNull List<Integer> arr) {
-        for (int i = 0; i < arr.size(); i++)
-            if (arr.get(i) == 0) return i;
+        for (int i = 0; i < arr.size(); i++) if (arr.get(i) == 0) return i;
 
         return -1;
     }
     
     private static int getPosMarker(@NotNull List<Integer> arr) {
-        for (int i = 0; i < arr.size(); i++)
-            if (arr.get(i) > 0) return i;
+        for (int i = 0; i < arr.size(); i++) if (arr.get(i) > 0) return i;
         
         return -1;
     }
