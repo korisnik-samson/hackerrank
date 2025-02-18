@@ -27,8 +27,8 @@ public class Main {
         arr.add(row2);
         arr.add(row3);
 
-        List<Integer> diag1 = Solution.getPrimaryDiag(arr);
-        List<Integer> diag2 = Solution.getSecondaryDiag(arr);
+        List<Integer> diag1 = DiagonalDifference.getPrimaryDiag(arr);
+        List<Integer> diag2 = DiagonalDifference.getSecondaryDiag(arr);
 
         int sum1 = 0;
         int sum2 = 0;
