@@ -32,7 +32,7 @@ public class CustomTest {
     }
 
     @NotNull
-    public static List<Integer> getArray(String fileName) {
+    public static List<Integer> getArrayFromFile(String fileName) {
         List<Integer> test = new ArrayList<>();
 
         // read from test.txt and add to test list
