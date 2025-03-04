@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7294743-a91b-4898-9c3d-25c0b24abc0c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/solutions/CountingValleys.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -128,6 +129,7 @@
       <workItem from="1740659083902" duration="352000" />
       <workItem from="1740750451383" duration="170000" />
       <workItem from="1740750658290" duration="3545000" />
+      <workItem from="1741093116562" duration="738000" />
     </task>
     <servers />
   </component>
